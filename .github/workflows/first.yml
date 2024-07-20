@@ -33,4 +33,4 @@ jobs:
             - name: install dep
               run: npm ci
             - name: deploy
-              run: npm run deploy
+              run: npm run build
