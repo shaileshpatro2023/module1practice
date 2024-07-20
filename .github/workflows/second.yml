@@ -1,0 +1,8 @@
+name: second task
+on: [issues]
+jobs:
+    firstjob:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print
+              run: echo "${{github.event}}"
